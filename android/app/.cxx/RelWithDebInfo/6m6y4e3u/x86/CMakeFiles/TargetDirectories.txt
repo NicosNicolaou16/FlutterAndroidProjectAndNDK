@@ -1,0 +1,3 @@
+C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/RelWithDebInfo/6m6y4e3u/x86/CMakeFiles/message.dir
+C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/RelWithDebInfo/6m6y4e3u/x86/CMakeFiles/edit_cache.dir
+C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/RelWithDebInfo/6m6y4e3u/x86/CMakeFiles/rebuild_cache.dir
