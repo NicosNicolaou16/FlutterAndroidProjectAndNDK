@@ -5,10 +5,6 @@
 
 using namespace std;
 
-/**
- * Logs
- * REFERENCE -> https://stackoverflow.com/questions/24646633/how-to-debug-jni-c-file-in-ndk-android
- * */
 #define LOG_TAG "AndroidProjectAndNDK"
 #define LOGV(...) __android_log_print(ANDROID_LOG_VERBOSE, LOG_TAG, __VA_ARGS__)
 
