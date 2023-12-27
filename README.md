@@ -7,9 +7,11 @@ example we print only a text from C/C++ file to Android Project.
 NOTE: EXAMPLE ONLY FOR ANDROID
 
 ## Similar project with (Kotlin Language)
+
 https://github.com/NicosNicolaou16/AndroidProjectAndNDK <br />
 
 ## Versions
+
 Flutter SDK version: 3.16.5 <br />
 Dart Version: 3.2.3 <br />
 
@@ -17,7 +19,56 @@ Dart Version: 3.2.3 <br />
 
 - Install the latest NDK and CMake version from Android Studio SDK Manager from the SDK Tools
   section.
-- Create the cpp package, add the CMake .txt and .cpp file.
+- Create the cpp package, add the CMake .txt and .cpp file. Some name below is base on .cpp file
+  name.
+
+```cmake
+# For more information about using CMake with Android Studio, read the
+# documentation: https://d.android.com/studio/projects/add-native-code.html
+
+# Sets the minimum version of CMake required to build the native library.
+
+cmake_minimum_required(VERSION 3.4.1)
+
+# Creates and names a library, sets it as either STATIC
+# or SHARED, and provides the relative paths to its source code.
+# You can define multiple libraries, and CMake builds them for you.
+# Gradle automatically packages shared libraries with your APK.
+
+add_library( # Sets the name of the library.
+        message # based on .cpp file name
+
+        # Sets the library as a shared library.
+        SHARED
+
+        # Provides a relative path to your source file(s).
+        message.cpp) # based on .cpp file name
+
+# Searches for a specified prebuilt library and stores the path as a
+# variable. Because CMake includes system libraries in the search path by
+# default, you only need to specify the name of the public NDK library
+# you want to add. CMake verifies that the library exists before
+# completing its build.
+
+find_library( # Sets the name of the path variable.
+        log-lib
+
+        # Specifies the name of the NDK library that
+        # you want CMake to locate.
+        log)
+
+# Specifies libraries CMake should link to your target library. You
+# can link multiple libraries, such as libraries you define in this
+# build script, prebuilt third-party libraries, or system libraries.
+
+target_link_libraries( # Specifies the target library.
+        message # based on .cpp file name
+
+        # Links the target library to the log library
+        # included in the NDK.
+        ${log-lib})
+```
+
 - Add the follow code in Gradle file.
 
 ```Kotlin
