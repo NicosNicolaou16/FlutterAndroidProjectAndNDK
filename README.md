@@ -109,8 +109,8 @@ private external fun message(): String
 
 # References/Tutorials Follow
 
-https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial/ <br />
-https://developer.android.com/studio/projects/add-native-code <br />
 https://github.com/android/ndk-samples <br />
+https://developer.android.com/studio/projects/add-native-code <br />
+https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial/ <br />
 https://medium.com/@shreebhagwat94/flutter-platform-channel-46578d21e69 <br />
 https://blog.devgenius.io/use-flutter-screens-in-native-android-app-share-data-among-them-d97d670807a6 <br />
