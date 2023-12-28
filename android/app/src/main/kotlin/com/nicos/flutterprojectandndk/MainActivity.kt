@@ -17,7 +17,7 @@ class MainActivity : FlutterActivity() {
     }
 
     /**
-     * call method from C file
+     * Initialize method from C file
      * */
     private external fun message(): String
 

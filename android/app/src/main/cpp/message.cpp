@@ -10,7 +10,7 @@ using namespace std;
 
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_nicos_flutterprojectandndk_MainActivity_message(JNIEnv *env, jobject object) {
-    string message = "Communicate Android Project with C file";
+    string message = "Hey Android, sent message from C file";
     LOGV("The value is %s", message.c_str());
     return env->NewStringUTF(message.c_str());
 }
