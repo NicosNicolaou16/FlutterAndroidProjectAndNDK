@@ -3,6 +3,7 @@
 This project is just the setup for the NDK in android, the communication Android project with C/C++
 file. In this
 example we print only a text from C/C++ file to Android Project.
+The communication between Android Native with Flutter, I used channel (check the references).
 
 NOTE: EXAMPLE ONLY FOR ANDROID
 
