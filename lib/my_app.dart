@@ -10,7 +10,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final MethodChannel methodChannel = const MethodChannel('NDK');
-  final String methodName = "message_method";
+  static const String methodName = "message_method";
   String? _valueFromNative;
 
   callCMethod() async {
