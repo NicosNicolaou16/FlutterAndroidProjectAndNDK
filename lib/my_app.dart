@@ -9,12 +9,12 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final MethodChannel methodChannel = const MethodChannel('NDK');
-  static const String methodName = "message_method";
+  final MethodChannel _methodChannel = const MethodChannel('NDK');
+  static const String _methodName = "message_method";
   String? _valueFromNative;
 
   callCMethod() async {
-    await methodChannel.invokeMethod(methodName).then((value) {
+    await _methodChannel.invokeMethod(_methodName).then((value) {
       setState(() {
         _valueFromNative = value;
       });
