@@ -10,10 +10,11 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final MethodChannel methodChannel = const MethodChannel('NDK');
+  final String methodName = "message_method";
   String? _valueFromNative;
 
   callCMethod() async {
-    await methodChannel.invokeMethod('message', "ndkMessage").then((value) {
+    await methodChannel.invokeMethod(methodName).then((value) {
       setState(() {
         _valueFromNative = value;
       });
@@ -23,7 +24,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'NDK',
+      title: 'Flutter NDK Example',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

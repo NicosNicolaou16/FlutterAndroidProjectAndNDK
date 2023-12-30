@@ -7,6 +7,7 @@ import io.flutter.plugin.common.MethodChannel
 class MainActivity : FlutterActivity() {
     companion object {
         private const val CHANNEL = "NDK"
+        private const val METHOD_NAME = "message_method"
 
         /**
          * Load the C file
@@ -25,7 +26,7 @@ class MainActivity : FlutterActivity() {
         super.configureFlutterEngine(flutterEngine)
         val messenger = flutterEngine.dartExecutor.binaryMessenger
         MethodChannel(messenger, CHANNEL).setMethodCallHandler { call, result ->
-            if (call.arguments.toString() == "ndkMessage") {
+            if (call.method.toString() == METHOD_NAME) {
                 result.success(message())
             }
         }
