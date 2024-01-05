@@ -31,6 +31,7 @@ class _MyAppState extends State<MyApp> {
         useMaterial3: true,
       ),
       home: Scaffold(
+        backgroundColor: Colors.white10,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -41,6 +42,7 @@ class _MyAppState extends State<MyApp> {
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   fontSize: 25,
+                  color: Colors.white
                 ),
               ),
             ),
