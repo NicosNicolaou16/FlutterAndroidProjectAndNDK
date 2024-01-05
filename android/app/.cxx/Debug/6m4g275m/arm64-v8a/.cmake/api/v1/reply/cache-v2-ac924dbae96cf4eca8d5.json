@@ -1290,6 +1290,18 @@
 			"value" : "C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so"
 		},
 		{
+			"name" : "messageFromC_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so;"
+		},
+		{
 			"name" : "message_LIB_DEPENDS",
 			"properties" : 
 			[

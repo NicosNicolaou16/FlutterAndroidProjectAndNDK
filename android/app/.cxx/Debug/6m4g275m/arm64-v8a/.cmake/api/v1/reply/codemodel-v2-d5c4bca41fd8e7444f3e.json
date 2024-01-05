@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "message::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-message-Debug-347986d4b1180d24da19.json",
-					"name" : "message",
+					"id" : "messageFromC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-messageFromC-Debug-143151fa0f3136a18620.json",
+					"name" : "messageFromC",
 					"projectIndex" : 0
 				}
 			]

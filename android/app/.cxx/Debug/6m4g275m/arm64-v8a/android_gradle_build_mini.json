@@ -17,10 +17,10 @@
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
-    "message::@6890427a1f51a3e7e1df": {
-      "artifactName": "message",
+    "messageFromC::@6890427a1f51a3e7e1df": {
+      "artifactName": "messageFromC",
       "abi": "arm64-v8a",
-      "output": "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\6m4g275m\\obj\\arm64-v8a\\libmessage.so",
+      "output": "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\6m4g275m\\obj\\arm64-v8a\\libmessageFromC.so",
       "runtimeFiles": []
     }
   }

@@ -11,13 +11,13 @@ cmake_minimum_required(VERSION 3.4.1)
 # Gradle automatically packages shared libraries with your APK.
 
 add_library( # Sets the name of the library.
-        message # based on .cpp file name
+        messageFromC # based on .cpp file name
 
         # Sets the library as a shared library.
         SHARED
 
         # Provides a relative path to your source file(s).
-        message.cpp) # based on .cpp file name
+        messageFromC.cpp) # based on .cpp file name
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
@@ -37,7 +37,7 @@ find_library( # Sets the name of the path variable.
 # build script, prebuilt third-party libraries, or system libraries.
 
 target_link_libraries( # Specifies the target library.
-        message # based on .cpp file name
+        messageFromC # based on .cpp file name
 
         # Links the target library to the log library
         # included in the NDK.

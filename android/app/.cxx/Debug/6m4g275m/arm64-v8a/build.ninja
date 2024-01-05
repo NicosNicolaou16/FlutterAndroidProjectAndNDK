@@ -41,40 +41,40 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/6m4g275m/arm64-v8a/
 # =============================================================================
-# Object build statements for SHARED_LIBRARY target message
+# Object build statements for SHARED_LIBRARY target messageFromC
 
 
 #############################################
-# Order-only phony target for message
+# Order-only phony target for messageFromC
 
-build cmake_object_order_depends_target_message: phony || CMakeFiles/message.dir
+build cmake_object_order_depends_target_messageFromC: phony || CMakeFiles/messageFromC.dir
 
-build CMakeFiles/message.dir/message.cpp.o: CXX_COMPILER__message_Debug C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/src/main/cpp/message.cpp || cmake_object_order_depends_target_message
-  DEFINES = -Dmessage_EXPORTS
-  DEP_FILE = CMakeFiles\message.dir\message.cpp.o.d
+build CMakeFiles/messageFromC.dir/messageFromC.cpp.o: CXX_COMPILER__messageFromC_Debug C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/src/main/cpp/messageFromC.cpp || cmake_object_order_depends_target_messageFromC
+  DEFINES = -DmessageFromC_EXPORTS
+  DEP_FILE = CMakeFiles\messageFromC.dir\messageFromC.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
-  OBJECT_DIR = CMakeFiles\message.dir
-  OBJECT_FILE_DIR = CMakeFiles\message.dir
+  OBJECT_DIR = CMakeFiles\messageFromC.dir
+  OBJECT_FILE_DIR = CMakeFiles\messageFromC.dir
 
 
 # =============================================================================
-# Link build statements for SHARED_LIBRARY target message
+# Link build statements for SHARED_LIBRARY target messageFromC
 
 
 #############################################
-# Link the shared library C:\Users\Nicos\Desktop\AndroidProjects\flutterprojectandndk\build\app\intermediates\cxx\Debug\6m4g275m\obj\arm64-v8a\libmessage.so
+# Link the shared library C:\Users\Nicos\Desktop\AndroidProjects\flutterprojectandndk\build\app\intermediates\cxx\Debug\6m4g275m\obj\arm64-v8a\libmessageFromC.so
 
-build C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/arm64-v8a/libmessage.so: CXX_SHARED_LIBRARY_LINKER__message_Debug CMakeFiles/message.dir/message.cpp.o | C$:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so
+build C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/arm64-v8a/libmessageFromC.so: CXX_SHARED_LIBRARY_LINKER__messageFromC_Debug CMakeFiles/messageFromC.dir/messageFromC.cpp.o | C$:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info
   LINK_FLAGS = -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so  -latomic -lm
-  OBJECT_DIR = CMakeFiles\message.dir
+  OBJECT_DIR = CMakeFiles\messageFromC.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  SONAME = libmessage.so
+  SONAME = libmessageFromC.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = C:\Users\Nicos\Desktop\AndroidProjects\flutterprojectandndk\build\app\intermediates\cxx\Debug\6m4g275m\obj\arm64-v8a\libmessage.so
-  TARGET_PDB = message.so.dbg
+  TARGET_FILE = C:\Users\Nicos\Desktop\AndroidProjects\flutterprojectandndk\build\app\intermediates\cxx\Debug\6m4g275m\obj\arm64-v8a\libmessageFromC.so
+  TARGET_PDB = messageFromC.so.dbg
 
 
 #############################################
@@ -102,9 +102,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build libmessage.so: phony C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/arm64-v8a/libmessage.so
+build libmessageFromC.so: phony C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/arm64-v8a/libmessageFromC.so
 
-build message: phony C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/arm64-v8a/libmessage.so
+build messageFromC: phony C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/arm64-v8a/libmessageFromC.so
 
 # =============================================================================
 # Folder targets.
@@ -114,7 +114,7 @@ build message: phony C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandnd
 #############################################
 # Folder: C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/6m4g275m/arm64-v8a
 
-build all: phony C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/arm64-v8a/libmessage.so
+build all: phony C$:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/arm64-v8a/libmessageFromC.so
 
 # =============================================================================
 # Built-in targets

@@ -13,7 +13,7 @@ class MainActivity : FlutterActivity() {
          * Load the C file
          * */
         init {
-            System.loadLibrary("message")
+            System.loadLibrary("messageFromC")
         }
     }
 

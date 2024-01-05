@@ -1,7 +1,5 @@
 # ninja log v5
-3	393	7253828017225865	CMakeFiles/message.dir/message.cpp.o	863669643fd02ca
-393	441	7253828017717879	C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/x86_64/libmessage.so	3900b421d6ddc05a
-3	438	7254943345974707	CMakeFiles/message.dir/message.cpp.o	863669643fd02ca
-438	508	7254943346678063	C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/x86_64/libmessage.so	3900b421d6ddc05a
 3	385	7255059967171386	CMakeFiles/message.dir/message.cpp.o	863669643fd02ca
 385	442	7255059967761559	C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/x86_64/libmessage.so	3900b421d6ddc05a
+0	548	7261880028827435	CMakeFiles/messageFromC.dir/messageFromC.cpp.o	969134d04781e9b7
+548	605	7261880029390730	C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/x86_64/libmessageFromC.so	7c612ef29bd5578

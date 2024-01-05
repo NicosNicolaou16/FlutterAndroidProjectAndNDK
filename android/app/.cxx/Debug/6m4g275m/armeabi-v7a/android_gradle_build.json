@@ -17,11 +17,11 @@
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
-    "message::@6890427a1f51a3e7e1df": {
+    "messageFromC::@6890427a1f51a3e7e1df": {
       "toolchain": "toolchain",
       "abi": "armeabi-v7a",
-      "artifactName": "message",
-      "output": "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\6m4g275m\\obj\\armeabi-v7a\\libmessage.so",
+      "artifactName": "messageFromC",
+      "output": "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\6m4g275m\\obj\\armeabi-v7a\\libmessageFromC.so",
       "runtimeFiles": []
     }
   },
