@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "arm64-v8a"
+			"value" : "armeabi-v7a"
 		},
 		{
 			"name" : "ANDROID_NDK",
@@ -63,7 +63,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "arm64-v8a"
+			"value" : "armeabi-v7a"
 		},
 		{
 			"name" : "CMAKE_ANDROID_NDK",
@@ -151,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/6m4g275m/arm64-v8a"
+			"value" : "c:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/6m4g275m/armeabi-v7a"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\6m4g275m\\obj\\arm64-v8a"
+			"value" : "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\6m4g275m\\obj\\armeabi-v7a"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -979,7 +979,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\6m4g275m\\obj\\arm64-v8a"
+			"value" : "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\6m4g275m\\obj\\armeabi-v7a"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/6m4g275m/arm64-v8a"
+			"value" : "C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/6m4g275m/armeabi-v7a"
 		},
 		{
 			"name" : "Project_IS_TOP_LEVEL",
@@ -1287,7 +1287,19 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so"
+			"value" : "C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/liblog.so"
+		},
+		{
+			"name" : "message-from-c_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/liblog.so;"
 		},
 		{
 			"name" : "messageFromC_LIB_DEPENDS",
@@ -1299,7 +1311,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "general;C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so;"
+			"value" : "general;C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/liblog.so;"
 		},
 		{
 			"name" : "message_LIB_DEPENDS",
@@ -1311,7 +1323,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "general;C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so;"
+			"value" : "general;C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/liblog.so;"
 		}
 	],
 	"kind" : "cache",

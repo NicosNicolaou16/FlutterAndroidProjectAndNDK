@@ -252,6 +252,9 @@ Project_SOURCE_DIR:STATIC=C:/Users/Nicos/Desktop/AndroidProjects/flutterprojecta
 log-lib:FILEPATH=C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so
 
 //Dependencies for the target
+message-from-c_LIB_DEPENDS:STATIC=general;C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so;
+
+//Dependencies for the target
 messageFromC_LIB_DEPENDS:STATIC=general;C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so;
 
 //Dependencies for the target

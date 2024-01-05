@@ -17,11 +17,11 @@
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
-    "messageFromC::@6890427a1f51a3e7e1df": {
+    "message-from-c::@6890427a1f51a3e7e1df": {
       "toolchain": "toolchain",
       "abi": "x86",
-      "artifactName": "messageFromC",
-      "output": "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\6m4g275m\\obj\\x86\\libmessageFromC.so",
+      "artifactName": "message-from-c",
+      "output": "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\6m4g275m\\obj\\x86\\libmessage-from-c.so",
       "runtimeFiles": []
     }
   },

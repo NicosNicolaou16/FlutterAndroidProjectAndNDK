@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "messageFromC::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-messageFromC-Debug-c892888ead339118080d.json",
-					"name" : "messageFromC",
+					"id" : "message-from-c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-message-from-c-Debug-57ba9c12de454f8c764c.json",
+					"name" : "message-from-c",
 					"projectIndex" : 0
 				}
 			]
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/6m4g275m/x86",
+		"build" : "C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/6m4g275m/arm64-v8a",
 		"source" : "C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/src/main/cpp"
 	},
 	"version" : 
