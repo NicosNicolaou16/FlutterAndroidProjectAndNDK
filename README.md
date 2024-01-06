@@ -7,7 +7,7 @@ The communication between Android Native with Flutter, I used channel (check the
 
 NOTE: EXAMPLE ONLY FOR ANDROID
 
-## Similar project with (Kotlin Language)
+## Similar project with (Dart Language)
 
 https://github.com/NicosNicolaou16/AndroidProjectAndNDK <br />
 
