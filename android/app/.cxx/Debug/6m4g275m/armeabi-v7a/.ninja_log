@@ -1,7 +1,8 @@
 # ninja log v5
-0	514	7261880014689129	CMakeFiles/messageFromC.dir/messageFromC.cpp.o	1f1ba7cacdd54be1
 3	409	7255059957569087	CMakeFiles/message.dir/message.cpp.o	680fcf1519c46e51
+0	514	7261880014689129	CMakeFiles/messageFromC.dir/messageFromC.cpp.o	1f1ba7cacdd54be1
 410	468	7255059958186019	C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/armeabi-v7a/libmessage.so	ad59da0eed6ef242
 514	584	7261880015380072	C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/armeabi-v7a/libmessageFromC.so	cd8acba95b7a7686
 0	568	7261884568648695	CMakeFiles/message-from-c.dir/message-from-c.cpp.o	6292077dd419a950
 568	621	7261884569189500	C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/build/app/intermediates/cxx/Debug/6m4g275m/obj/armeabi-v7a/libmessage-from-c.so	e7a8989187161b77
+1	61	7267929540326413	build.ninja	4d5ff3b17d965a2a
