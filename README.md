@@ -13,7 +13,7 @@ https://github.com/NicosNicolaou16/AndroidProjectAndNDK <br />
 
 ## Versions
 
-Flutter SDK version: 3.19.0 <br />
+Flutter SDK version: 3.19.2 <br />
 Dart Version: 3.3.0 <br />
 
 # Setup - Steps
