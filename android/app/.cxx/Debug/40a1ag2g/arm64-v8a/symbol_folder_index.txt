@@ -1,0 +1,1 @@
+C:\Users\Nicos\Desktop\AndroidProjects\flutterprojectandndk\build\app\intermediates\cxx\Debug\40a1ag2g\obj\arm64-v8a
