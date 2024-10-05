@@ -1,0 +1,3 @@
+C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/2y2r4k3k/arm64-v8a/CMakeFiles/message-from-c.dir
+C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/2y2r4k3k/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/2y2r4k3k/arm64-v8a/CMakeFiles/rebuild_cache.dir

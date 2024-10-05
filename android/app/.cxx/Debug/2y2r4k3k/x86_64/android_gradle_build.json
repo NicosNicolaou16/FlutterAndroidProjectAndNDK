@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\android\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Nicos\\AppData\\Local\\Android\\sdk\\cmake\\3.30.4\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\android\\app\\.cxx\\Debug\\2y2r4k3k\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Nicos\\AppData\\Local\\Android\\sdk\\cmake\\3.30.4\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\android\\app\\.cxx\\Debug\\2y2r4k3k\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "message-from-c::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "message-from-c",
+      "output": "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\2y2r4k3k\\obj\\x86_64\\libmessage-from-c.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\Nicos\\AppData\\Local\\Android\\Sdk\\ndk\\27.1.12297006\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\Nicos\\AppData\\Local\\Android\\Sdk\\ndk\\27.1.12297006\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
