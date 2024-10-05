@@ -13,8 +13,8 @@ https://github.com/NicosNicolaou16/AndroidProjectAndNDK <br />
 
 ## Versions
 
-Flutter SDK version: 3.24.1 <br />
-Dart Version: 3.5.1 <br />
+Flutter SDK version: 3.24.3 <br />
+Dart Version: 3.5.3 <br />
 
 # Setup - Steps
 
@@ -80,10 +80,10 @@ android {
     externalNativeBuild {
         cmake {
             path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.22.1"
+            version = "3.30.4"
         }
     }
-    ndkVersion = "26.1.10909125"
+    ndkVersion = "27.1.12297006"
 
     //Other Gradle Code Here...
 }
