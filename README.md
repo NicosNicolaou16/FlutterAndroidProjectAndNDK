@@ -80,10 +80,10 @@ android {
     externalNativeBuild {
         cmake {
             path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.30.4"
+            version = "3.30.5"
         }
     }
-    ndkVersion = "27.1.12297006"
+    ndkVersion = "27.2.12479018"
 
     //Other Gradle Code Here...
 }
