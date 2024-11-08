@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Nicos/Desktop/AndroidProjects/flutterprojectandndk/android/app/.cxx/Debug/6m4r1h5m/x86",
+  "command": "C:\\Users\\Nicos\\AppData\\Local\\Android\\Sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android27 --sysroot=C:/Users/Nicos/AppData/Local/Android/Sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dmessage_from_c_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\message-from-c.dir\\message-from-c.cpp.o -c C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\android\\app\\src\\main\\cpp\\message-from-c.cpp",
+  "file": "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\android\\app\\src\\main\\cpp\\message-from-c.cpp",
+  "output": "CMakeFiles\\message-from-c.dir\\message-from-c.cpp.o"
+}
+]
