@@ -7,10 +7,6 @@ The communication between Android Native with Flutter, I used channel (check the
 
 NOTE: EXAMPLE ONLY FOR ANDROID
 
-## Similar project with (Dart Language)
-
-https://github.com/NicosNicolaou16/AndroidProjectAndNDK <br />
-
 ## Versions
 
 Flutter SDK version: 3.24.4 <br />
@@ -108,8 +104,11 @@ companion object {
 private external fun message(): String 
 ```
 
-## Check my article
-https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb
+> [!IMPORTANT]  
+> Check my article :point_right: [NDK Setup on Android/Flutter Android Project - Medium](https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb) :point_left: <br />
+
+> [!IMPORTANT]  
+> Similar project with (Dart Language) :point_right: [AndroidProjectAndNDK](https://github.com/NicosNicolaou16/AndroidProjectAndNDK) :point_left: <br />
 
 # References/Tutorials Follow
 
