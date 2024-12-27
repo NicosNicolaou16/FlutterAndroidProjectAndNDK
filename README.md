@@ -110,8 +110,8 @@ private external fun message(): String
 
 ## Versioning
 
-Flutter SDK version: 3.24.4 <br />
-Dart Version: 3.5.4 <br />
+Flutter SDK version: 3.27.1 <br />
+Dart Version: 3.6.0 <br />
 
 # References/Tutorials Follow
 
