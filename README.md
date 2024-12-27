@@ -7,11 +7,6 @@ The communication between Android Native with Flutter, I used channel (check the
 
 NOTE: EXAMPLE ONLY FOR ANDROID
 
-## Versions
-
-Flutter SDK version: 3.24.4 <br />
-Dart Version: 3.5.4 <br />
-
 # Setup - Steps
 
 - Install the latest NDK and CMake version from Android Studio SDK Manager from the SDK Tools
@@ -109,6 +104,11 @@ private external fun message(): String
 
 > [!IMPORTANT]  
 > Similar project with (Dart Language) :point_right: [AndroidProjectAndNDK](https://github.com/NicosNicolaou16/AndroidProjectAndNDK) :point_left: <br />
+
+## Versioning
+
+Flutter SDK version: 3.24.4 <br />
+Dart Version: 3.5.4 <br />
 
 # References/Tutorials Follow
 
