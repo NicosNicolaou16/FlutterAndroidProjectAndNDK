@@ -1,20 +1,14 @@
 # Flutter Android Project and NDK
 
-This project is just the setup for the NDK in android, the communication Android project with C/C++
-file. In this
-example we print only a text from C/C++ file to Android Project.
-The communication between Android Native with Flutter, I used channel (check the references). But, if you need an extra example about the channel check my repository for more information. https://github.com/NicosNicolaou16/ExampleChannelNativeAndroidWithCustomData
+This project sets up the NDK (Native Development Kit) in Android for communication between an
+Android project and C/C++ code. In this example, the C/C++ code simply prints a text message to the
+Android application. <br />
+For communication between Android Native and Flutter, I used a channel (refer to the documentation
+for more details). If you need an additional example of using channels, please check my repository
+for more information: [ExampleChannelNativeAndroidWithCustomData](https://github.com/NicosNicolaou16/ExampleChannelNativeAndroidWithCustomData).
 
-NOTE: EXAMPLE ONLY FOR ANDROID
-
-## Similar project with (Dart Language)
-
-https://github.com/NicosNicolaou16/AndroidProjectAndNDK <br />
-
-## Versions
-
-Flutter SDK version: 3.24.4 <br />
-Dart Version: 3.5.4 <br />
+> [!IMPORTANT]
+> NOTE: EXAMPLE FOR ANDROID ONLY. <br />
 
 # Setup - Steps
 
@@ -80,7 +74,7 @@ android {
     externalNativeBuild {
         cmake {
             path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.31.0"
+            version = "3.31.1"
         }
     }
     ndkVersion = "27.2.12479018"
@@ -108,8 +102,16 @@ companion object {
 private external fun message(): String 
 ```
 
-## Check my article
-https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb
+> [!IMPORTANT]  
+> Check my article :point_right: [NDK Setup on Android/Flutter Android Project - Medium](https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb) :point_left: <br />
+
+> [!IMPORTANT]  
+> Similar project with (Kotlin Language) :point_right: [AndroidProjectAndNDK](https://github.com/NicosNicolaou16/AndroidProjectAndNDK) :point_left: <br />
+
+## Versioning
+
+Flutter SDK version: 3.27.1 <br />
+Dart Version: 3.6.0 <br />
 
 # References/Tutorials Follow
 
