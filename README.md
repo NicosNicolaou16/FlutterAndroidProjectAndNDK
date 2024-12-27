@@ -1,8 +1,8 @@
 # Flutter Android Project and NDK
 
-This project demonstrates the setup of the NDK (Native Development Kit) in Android for communication
-between an Android project and C/C++ code. In this example, the C/C++ code simply prints a text
-message to the Android project. <br />
+This project sets up the NDK (Native Development Kit) in Android for communication between an
+Android project and C/C++ code. In this example, the C/C++ code simply prints a text message to the
+Android application. <br />
 For communication between Android Native and Flutter, I used a channel (refer to the documentation
 for more details). If you need an additional example of using channels, please check my repository
 for more information: [ExampleChannelNativeAndroidWithCustomData](https://github.com/NicosNicolaou16/ExampleChannelNativeAndroidWithCustomData).
