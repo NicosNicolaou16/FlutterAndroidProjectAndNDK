@@ -106,7 +106,7 @@ private external fun message(): String
 > Check my article :point_right: [NDK Setup on Android/Flutter Android Project - Medium](https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb) :point_left: <br />
 
 > [!IMPORTANT]  
-> Similar project with (Dart Language) :point_right: [AndroidProjectAndNDK](https://github.com/NicosNicolaou16/AndroidProjectAndNDK) :point_left: <br />
+> Similar project with (Kotlin Language) :point_right: [AndroidProjectAndNDK](https://github.com/NicosNicolaou16/AndroidProjectAndNDK) :point_left: <br />
 
 ## Versioning
 
