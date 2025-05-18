@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\android\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Nicos\\AppData\\Local\\Android\\Sdk\\cmake\\4.0.2\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\android\\app\\.cxx\\Debug\\2o1l123g\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Nicos\\AppData\\Local\\Android\\Sdk\\cmake\\4.0.2\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\android\\app\\.cxx\\Debug\\2o1l123g\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "message-from-c::@6890427a1f51a3e7e1df": {
+      "artifactName": "message-from-c",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\Nicos\\Desktop\\AndroidProjects\\flutterprojectandndk\\build\\app\\intermediates\\cxx\\Debug\\2o1l123g\\obj\\arm64-v8a\\libmessage-from-c.so",
+      "runtimeFiles": []
+    }
+  }
+}
