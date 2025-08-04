@@ -74,10 +74,10 @@ android {
     externalNativeBuild {
         cmake {
             path = file("src/main/cpp/CMakeLists.txt")
-            version = "4.0.2"
+            version = "4.0.3"
         }
     }
-    ndkVersion = "28.0.13004108"
+    ndkVersion = "28.2.13676358"
 
     //Other Gradle Code Here...
 }
@@ -110,8 +110,8 @@ private external fun message(): String
 
 ## Versioning
 
-Flutter SDK version: 3.29.3 <br />
-Dart Version: 3.7.2 <br />
+Flutter SDK version: 3.22.8 <br />
+Dart Version: 3.8.1 <br />
 
 # References/Tutorials Follow
 
