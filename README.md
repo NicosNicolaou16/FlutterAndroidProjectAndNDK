@@ -16,7 +16,6 @@ For communication between Android Native and Flutter, I used a channel (refer to
 for more details). If you need an additional example of using channels, please check my repository
 for more information: [ExampleChannelNativeAndroidWithCustomData](https://github.com/NicosNicolaou16/ExampleChannelNativeAndroidWithCustomData).
 
-
 > [!IMPORTANT]
 > NOTE: EXAMPLE FOR ANDROID ONLY. <br />
 
