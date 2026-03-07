@@ -1,5 +1,16 @@
 # Flutter Android Project and NDK
 
+[![Linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/nicos_nicolaou)
+[![Site](https://img.shields.io/badge/Site-blue?style=for-the-badge&label=Web)](https://nicosnicolaou16.github.io/)
+[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/nicolaou_nicos)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nicos-nicolaou-a16720aa)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nicosnicolaou)
+[![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?style=for-the-badge&logo=mastodon&logoColor=white)](https://androiddev.social/@nicolaou_nicos)
+[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=Bluesky&logoColor=white)](https://bsky.app/profile/nicolaounicos.bsky.social)
+[![Dev.to blog](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/nicosnicolaou16)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@nicosnicolaou16)
+[![Google Developer Profile](https://img.shields.io/badge/Developer_Profile-blue?style=for-the-badge&label=Google)](https://g.dev/nicolaou_nicos)
+
 This project sets up the NDK (Native Development Kit) in Android for communication between an
 Android project and C/C++ code. In this example, the C/C++ code simply prints a text message to the
 Android application. <br />
@@ -108,15 +119,29 @@ private external fun message(): String
 > [!IMPORTANT]  
 > Similar project with (Kotlin Language) :point_right: [AndroidProjectAndNDK](https://github.com/NicosNicolaou16/AndroidProjectAndNDK) :point_left: <br />
 
-## Versioning
 
-Flutter SDK version: 3.38.5 <br />
-Dart Version: 3.10.4 <br />
+## 🔧 Versioning
 
-# References/Tutorials Follow
+- **Flutter SDK:** `3.41.4`
+- **Dart Version:** `3.11.1`
+- **NDK Version:** `29.0.14206865`
+- **CMake Version:** `4.1.2`
+- **Native Build Tool:** **CMake 3.10.0+**
 
-https://github.com/android/ndk-samples <br />
-https://developer.android.com/studio/projects/add-native-code <br />
-https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial/ <br />
-https://medium.com/@shreebhagwat94/flutter-platform-channel-46578d21e69 <br />
-https://blog.devgenius.io/use-flutter-screens-in-native-android-app-share-data-among-them-d97d670807a6 <br />
+## 📚 References & Tutorials
+
+- **NDK Samples:** [android/ndk-samples](https://github.com/android/ndk-samples)
+- **Official Documentation:** [Add native code to your project](https://developer.android.com/studio/projects/add-native-code)
+- **Tutorial:** [Add native code to your project](https://blog.mindorks.com/getting-started-with-android-ndk-android-tutorial/)
+- **Flutter Channels:** [ExampleChannelNativeAndroidWithCustomData](https://github.com/NicosNicolaou16/ExampleChannelNativeAndroidWithCustomData)
+- **Community Guide:** [Flutter Platform Channels - Medium](https://medium.com/@shreebhagwat94/flutter-platform-channel-46578d21e69)
+- **Flutter Channels:** [Flutter Platform Channels - Medium](https://blog.devgenius.io/use-flutter-screens-in-native-android-app-share-data-among-them-d97d670807a6)
+
+## ⭐ Stargazers
+
+If you find this project useful, please give it a star!  
+[Check out the stargazers here](https://github.com/NicosNicolaou16/FlutterAndroidProjectAndNDK/stargazers)
+
+## 🙏 Support & Contributions
+
+This project is maintained for the community. Feedback, bug reports, and feature requests are welcome! Feel free to **open an issue** or submit a **pull request**.
