@@ -11,13 +11,6 @@
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@nicosnicolaou16)
 [![Google Developer Profile](https://img.shields.io/badge/Developer_Profile-blue?style=for-the-badge&label=Google)](https://g.dev/nicolaou_nicos)
 
-This project sets up the NDK (Native Development Kit) in Android for communication between an
-Android project and C/C++ code. In this example, the C/C++ code simply prints a text message to the
-Android application. <br />
-For communication between Android Native and Flutter, I used a channel (refer to the documentation
-for more details). If you need an additional example of using channels, please check my repository
-for more information: [ExampleChannelNativeAndroidWithCustomData](https://github.com/NicosNicolaou16/ExampleChannelNativeAndroidWithCustomData).
-
 A guide and starter project for setting up the **Android NDK (Native Development Kit)** within a Flutter project. This project demonstrates how to communicate between Flutter, Android Native (Kotlin), and C/C++ code using Method Channels.
 For communication between Android Native and Flutter, I used a channel (refer to the documentation
 for more details). If you need an additional example of using channels, please check my repository
