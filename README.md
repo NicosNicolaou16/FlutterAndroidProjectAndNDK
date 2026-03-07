@@ -18,15 +18,33 @@ For communication between Android Native and Flutter, I used a channel (refer to
 for more details). If you need an additional example of using channels, please check my repository
 for more information: [ExampleChannelNativeAndroidWithCustomData](https://github.com/NicosNicolaou16/ExampleChannelNativeAndroidWithCustomData).
 
+A guide and starter project for setting up the **Android NDK (Native Development Kit)** within a Flutter project. This project demonstrates how to communicate between Flutter, Android Native (Kotlin), and C/C++ code using Method Channels.
+For communication between Android Native and Flutter, I used a channel (refer to the documentation
+for more details). If you need an additional example of using channels, please check my repository
+for more information: [ExampleChannelNativeAndroidWithCustomData](https://github.com/NicosNicolaou16/ExampleChannelNativeAndroidWithCustomData).
+
+
 > [!IMPORTANT]
 > NOTE: EXAMPLE FOR ANDROID ONLY. <br />
 
-# Setup - Steps
+> [!IMPORTANT]  
+> A detailed step-by-step guide is available on Medium!  
+> 👉 **[NDK Setup on Android/Flutter Android Project](https://medium.com/@nicosnicolaou/ndk-setup-on-android-flutter-android-project-1571d9a3f5cb)** 👈
 
-- Install the latest NDK and CMake version from Android Studio SDK Manager from the SDK Tools
-  section.
-- Create the cpp package, add the CMake .txt and .cpp file. Some name below is base on .cpp file
-  name.
+> [!IMPORTANT]  
+> A similar project for pure Native Android (Kotlin) is also available!  
+> 👉 **[AndroidProjectAndNDK](https://github.com/NicosNicolaou16/AndroidProjectAndNDK)** 👈
+
+## 🚀 Setup Steps
+
+### 1. Requirements
+* Install the latest **NDK** and **CMake** via the Android Studio SDK Manager (**SDK Tools** tab).
+
+### 2. Native Configuration (C++)
+* Create a `cpp` package under `android/app/src/main/`.
+* Add your `.cpp` source file and a `CMakeLists.txt` file.
+
+**Example `CMakeLists.txt`:**
 
 ```cmake
 # For more information about using CMake with Android Studio, read the
