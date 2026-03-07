@@ -86,7 +86,8 @@ target_link_libraries( # Specifies the target library.
         ${log-lib})
 ```
 
-- Add the follow code in Gradle file.
+### 3. Gradle Integration
+Add the following to your module-level `build.gradle.kts`:
 
 ```Kotlin
 android {
@@ -105,7 +106,8 @@ android {
 }
 ```
 
-- Load the C/C++ file.
+### 4. Implementation (Kotlin)
+Load the library and declare the external function:
 
 ```Kotlin
 companion object {
