@@ -8,9 +8,14 @@ plugins {
 
 android {
     namespace = "com.nicos.flutterprojectandndk"
-    compileSdk = 36
+    compileSdk = 37
     ndkVersion = "29.0.14206865"
     buildToolsVersion = "36.0.0"
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_21
@@ -21,11 +26,10 @@ android {
         compilerOptions {
             jvmTarget = JvmTarget.fromTarget("21")
         }
-    }
-
-    sourceSets {
-        getByName("main") {
-            java.srcDirs("src/main/kotlin")
+        sourceSets {
+            named("main") {
+                kotlin.setSrcDirs(listOf("src/main/kotlin"))
+            }
         }
     }
 
