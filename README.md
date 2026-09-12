@@ -44,7 +44,7 @@ for more information: [ExampleChannelNativeAndroidWithCustomData](https://github
 
 # Sets the minimum version of CMake required to build the native library.
 
-cmake_minimum_required(VERSION 3.6.0)
+cmake_minimum_required(VERSION 3.10.0)
 
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
@@ -99,7 +99,7 @@ android {
             version = "4.1.2"
         }
     }
-    ndkVersion = "29.0.14206865"
+    ndkVersion = "30.0.16248370"
 
     //Other Gradle Code Here...
 }
@@ -127,9 +127,9 @@ private external fun message(): String
 
 ## 🔧 Versioning
 
-- **Flutter SDK:** **3.44.9**
-- **Dart Version:** **3.12.2**
-- **NDK Version:** **29.0.14206865**
+- **Flutter SDK:** **3.47.4**
+- **Dart Version:** **3.13.3**
+- **NDK Version:** **30.0.16248370**
 - **CMake Version:** **4.1.2**
 - **Native Build Tool:** **CMake 3.10.0+**
 
