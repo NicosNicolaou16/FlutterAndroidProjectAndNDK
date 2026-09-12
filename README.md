@@ -127,7 +127,7 @@ private external fun message(): String
 
 ## 🔧 Versioning
 
-- **Flutter SDK:** **3.44.9**
+- **Flutter SDK:** **3.47.4**
 - **Dart Version:** **3.13.3**
 - **NDK Version:** **30.0.16248370**
 - **CMake Version:** **4.1.2**
